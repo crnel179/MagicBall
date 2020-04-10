@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Magic Ball</string>
+    <string name="tv_main">Look for the answer!</string>
+    <string name="image_ball">magicBall</string>
+    <string name="btn_shake">Shake it!</string>
+</resources>

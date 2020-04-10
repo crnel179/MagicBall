@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A0000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:text="@string/tv_main"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="60sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_ball"
+            app:srcCompat="@drawable/ball1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_shakeit"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#0A5485"
+            android:padding="15dp"
+            android:text="@string/btn_shake"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+</LinearLayout>
