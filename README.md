@@ -1,4 +1,4 @@
-# MagicBall
+# Magic Ball
 
 Another Random Answer Based App
 
